@@ -1,1 +1,2 @@
-export * from "./Endringsvarsel";
+export { default as Endringsvarsel } from "./Endringsvarsel";
+export { EndringsvarselProps } from "./Endringsvarsel.types";

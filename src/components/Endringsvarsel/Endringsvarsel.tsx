@@ -18,7 +18,7 @@ const IconSpan = styled.span`
   padding: 0.25rem;
 `
 
-const Endringsvarsel: React.FC<EndringsvarselProps> = ({
+export const Endringsvarsel: React.FC<EndringsvarselProps> = ({
   tittel,
   tekst,
   dato

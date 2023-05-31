@@ -5,7 +5,7 @@
   "repository": "https://github.com/navikt/hm-react-components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "typings": "dist/esm/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",

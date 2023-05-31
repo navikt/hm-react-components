@@ -1,2 +1,11 @@
+import React from 'react';
 
-export { }
+interface EndringsvarselProps {
+    tittel: string;
+    tekst: string;
+    dato?: string;
+}
+
+declare const Endringsvarsel: React.FC<EndringsvarselProps>;
+
+export { Endringsvarsel, EndringsvarselProps };
