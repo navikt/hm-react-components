@@ -1380,6 +1380,11 @@
     "@types/mdx" "^2.0.0"
     "@types/react" ">=16"
 
+"@navikt/aksel-icons@^3.3.1":
+  "integrity" "sha512-nVydAD47iybWm8BXsQs+TbL/FRWOBUMgyov6pUler94FZYyl/tIxqKcTkzoi+MbnfZOxhj/XzisavzkXmUSRxA=="
+  "resolved" "https://npm.pkg.github.com/download/@navikt/aksel-icons/3.3.1/859b455066f5cf05a7b13847eac1661102e686e4"
+  "version" "3.3.1"
+
 "@ndelangen/get-tarball@^3.0.7":
   "integrity" "sha512-NqGfTZIZpRFef1GoVaShSSRwDC3vde3ThtTeqFdcYd6ipKqnfEVhjK2hUeHjCQUcptyZr2TONqcloFXM+5QBrQ=="
   "resolved" "https://registry.npmjs.org/@ndelangen/get-tarball/-/get-tarball-3.0.7.tgz"
