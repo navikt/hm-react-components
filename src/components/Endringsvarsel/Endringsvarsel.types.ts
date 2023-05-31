@@ -1,6 +1,8 @@
 
 export interface EndringsvarselProps {
-    tittel: string,
+    tittel: string
     tekst: string
     dato?: string
+    lenke?: string
+    lenketekst?: string
 }

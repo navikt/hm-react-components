@@ -19,9 +19,11 @@ const IconSpan = styled.span`
 `
 
 export const Endringsvarsel: React.FC<EndringsvarselProps> = ({
-  tittel,
-  tekst,
-  dato
+    tittel,
+    tekst,
+    dato,
+    lenke,
+    lenketekst
 }) => {
   return (
       <EndringsvarselContainer>
@@ -33,7 +35,10 @@ export const Endringsvarsel: React.FC<EndringsvarselProps> = ({
         </div>
         <div>
           <div style={{fontWeight: 'bold'}}>{tittel}</div>
-          <div>{tekst}</div>
+          <div>{tekst} {lenke &&
+                   <a href={lenke} target="_blank">{lenketekst}</a>
+          }
+          </div>
         </div>
         {dato &&
             <>
