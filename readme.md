@@ -5,6 +5,13 @@ This is a UI component library for Team Digihot
 
 ## Usage
 
+To test components locally you can run: 
+```
+npm install
+npm run build
+npm run storybook
+```
+
 To use this UI library in your project, import the components you need from the library and use them in your React components.
 
 ```jsx
