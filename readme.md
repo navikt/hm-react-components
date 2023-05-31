@@ -32,3 +32,17 @@ function App() {
 
 export default App;
 ```
+
+## Add a new component and publish to GitHub npm registry
+
+Create a new folder for your component under /components and add an import 
+statement for the new component from src/components/index.ts and from src/index.ts
+
+You need to set up a .npmrc file before publishing, see https://github.com/navikt/frontend#github-npm-registry
+
+When you are ready to publish, update the package.json version and run
+```
+npm publish
+```
+
+
