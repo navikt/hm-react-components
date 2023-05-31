@@ -1,6 +1,7 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import Endringsvarsel from "./Endringsvarsel";
+import {EndringsvarselProps} from "./Endringsvarsel.types";
 
 const meta: Meta<typeof Endringsvarsel> = {
   component: Endringsvarsel,
@@ -11,7 +12,7 @@ export default meta;
 
 type Story = StoryObj<typeof Endringsvarsel>;
 
-export const Primary: Story = (args) => (
+export const Primary: Story = (args: EndringsvarselProps) => (
   <Endringsvarsel data-test-id="InputField-id" {...args} />
 );
 Primary.args = {
@@ -20,7 +21,8 @@ Primary.args = {
   dato: "01.01.2023",
 };
 
-export const Secondary: Story = (args) => (
+
+export const Secondary: Story = (args: EndringsvarselProps) => (
     <Endringsvarsel data-test-id="InputField-id" {...args} />
 );
 Secondary.args = {
