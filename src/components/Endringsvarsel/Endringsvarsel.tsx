@@ -4,8 +4,11 @@ import {EndringsvarselProps} from "./Endringsvarsel.types";
 
 const EndringsvarselContainer = styled.div`
   display: grid;
-  grid-template-columns: auto 1fr;
-  padding: 1rem;
+  gap: 1rem;
+  grid-template-rows: auto 1fr;
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: auto 1fr;
+  }
 `
 
 const IconSpan = styled.span`
@@ -25,7 +28,7 @@ export const Endringsvarsel: React.FC<EndringsvarselProps> = ({
                                                               }) => {
     return (
         <EndringsvarselContainer>
-            <div style={{display: "flex", alignItems: 'center', paddingRight: '1rem'}}>
+            <div style={{display: "flex", justifyContent: 'center'}}>
                 <IconSpan>
                     <Megaphone/>
                 </IconSpan>
