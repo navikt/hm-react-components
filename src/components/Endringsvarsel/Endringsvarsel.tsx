@@ -28,7 +28,7 @@ export const Endringsvarsel: React.FC<EndringsvarselProps> = ({
                                                               }) => {
     return (
         <EndringsvarselContainer>
-            <div style={{display: "flex", justifyContent: 'center'}}>
+            <div style={{display: "flex", justifyContent: 'center', alignItems: 'center'}}>
                 <IconSpan>
                     <Megaphone/>
                 </IconSpan>
